@@ -22,6 +22,7 @@ const  App =() =>  {
   return (
     <Provider store={store}>
     <Fragment>
+    <SearchBar />
       <div className="container">
       <AddBtn/>
       <AddLogModal />
